@@ -91,6 +91,33 @@ div#pagetitle{
     text-align: center;
 }
 
+div#pagetitle1{
+    
+    text-align:center;
+    margin-top: 3%;
+    /*margin-left: 10%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    margin-bottom: 3%; /*previously 4*/
+    display: flex;
+    justify-content: center;
+}
+
+#headerimg1 {
+    margin-left: 100px;
+    border: 2px solid #FFFFFF;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#name1 {
+    vertical-align: top;
+    text-align: right;
+}
+
 p {
     height: auto;
     margin: 0;
