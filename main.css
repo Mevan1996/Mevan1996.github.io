@@ -248,7 +248,7 @@ table ol {
 }
 
 .float-child {
-    width: 40%;
+    width: 35%;
     float: left;
     padding: 20px;
     border: 2px solid red;
