@@ -100,7 +100,7 @@ div#pagetitle1{
     margin-right: auto;
     margin-bottom: 3%; /*previously 4*/
     display: flex;
-    width: 700px;
+    width: 80%;
     justify-content: center;
 }
 
