@@ -129,7 +129,7 @@ div#pagetitle{
     text-align: center;
 }
 
-div#pagetitle1{
+.pagetitle1{
     
     text-align:center;
     margin-top: 3%;
@@ -142,7 +142,7 @@ div#pagetitle1{
     justify-content: center;
 }
 
-#headerimg1 {
+.headerimg1 {
     margin-left: 100px;
     border: 2px solid #FFFFFF;
     width: 150px;
@@ -151,7 +151,7 @@ div#pagetitle1{
     margin-right: 10px;
 }
 
-#name1 {
+.name1 {
     vertical-align: top;
     text-align: left;
 }
