@@ -96,7 +96,7 @@ div#pagetitle1{
     text-align:left;
     margin-top: 3%;
     /*margin-left: 10%;*/
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     margin-bottom: 3%; /*previously 4*/
     display: flex;
