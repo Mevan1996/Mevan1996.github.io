@@ -15,6 +15,7 @@ body {
     -webkit-animation-timing-function: linear;
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
+    position:relative;
     font-weight: 400;
     font-family: "Noto Sans", sans-serif;
     color: #222; 
