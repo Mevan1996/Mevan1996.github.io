@@ -322,3 +322,8 @@ table ol {
     padding: 20px;
     border: 2px solid red;
 }  
+
+
+ a {
+  color: inherit;
+ }
