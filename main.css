@@ -10,7 +10,6 @@ body {
     -webkit-animation-timing-function: linear;
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
-    position:relative;
     font-weight: 400;
     font-family: "Noto Sans", sans-serif;
     color: #222; 
@@ -80,7 +79,7 @@ div#headpane {
 
 div#contentpane {
     
-    position:fixed;
+    position:relative;
     margin-top: 300px;
     margin-left:auto;
     margin-right:auto;
