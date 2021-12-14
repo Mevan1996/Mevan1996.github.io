@@ -42,7 +42,7 @@ div#headpane {
 
 div#contentpane {
 /*     position: absolute; */
-    margin-top: -10px;
+/*     margin-top: -10px; */
     margin-left:auto;
     margin-right:auto;
     padding-bottom: 100px;
@@ -52,7 +52,6 @@ div#contentpane {
     background-color: #FFFFFF;
     clear: both;
     line-height: 150%;
-    z-index: 1;
 }
 
 div#content {
