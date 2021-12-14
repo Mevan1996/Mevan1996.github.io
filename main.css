@@ -311,7 +311,7 @@ li {
  position: relative; 
 }
 .dropdown {
- background-color: rgb(1, 139, 139);
+ background-color: #555;
  padding: 1em 0;
  position: absolute; /*WITH RESPECT TO PARENT*/
  display: none;
@@ -327,7 +327,7 @@ li {
  text-align: center;
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: #555;
 }
 .services:hover .dropdown {
  display: block;
@@ -374,6 +374,6 @@ input[type=checkbox]:checked ~ .menu{
  transform: translateX(35%);
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: #555;
 }
 }
