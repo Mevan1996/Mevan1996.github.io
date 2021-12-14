@@ -279,7 +279,7 @@ table ol {
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- position: absolute;
+ position: fixed;
  background-color: #555;
  color: #fff;
 }
