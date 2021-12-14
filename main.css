@@ -281,6 +281,7 @@ table ol {
  width: 100%;
  background-color: #555;
  color: #fff;
+ z-index: 10;
 }
 .nav-links a {
  color: #fff;
