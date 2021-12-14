@@ -41,6 +41,7 @@ div#headpane {
 }
 
 div#contentpane {
+/*     position: absolute; */
     margin-top: -10px;
     margin-left:auto;
     margin-right:auto;
