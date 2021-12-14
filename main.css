@@ -285,6 +285,9 @@ table ol {
 .nav-links a {
  color: #fff;
 }
+li {
+ list-style: none;
+}
 /* LOGO */
 .logo {
  font-size: 32px;
