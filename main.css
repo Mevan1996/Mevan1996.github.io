@@ -280,10 +280,10 @@ table ol {
  justify-content: space-between;
  padding: 20px;
  background-color: teal;
- color: #fff;
+ color: #555;
 }
 .nav-links a {
- color: #fff;
+ color: #555;
 }
 li {
  list-style: none;
