@@ -418,5 +418,40 @@
 	}
   </script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"</script>
+  $("#sec-1").click(function() {
+           $('html, body').animate({
+               scrollTop:        $("#one").offset().top-200
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-2").click(function() {
+           $('html, body') .animate({
+               scrollTop:        $("#two").offset().top-200
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-3").click(function() {
+           $(' html,body') .animate({
+               scrollTop:        $("#three").offset().top-200
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-4").click(function() {
+        $(this).addClass("active");
+           $('html,body ') .animate({
+               scrollTop:        $("#four").offset().top-200
+           }, 1000);
+        return false;
+       });
+       $("#sec-5").click(function() {
+        $(this).addClass("active");
+           $('html,body ') .animate({
+               scrollTop:        $("#four").offset().top-200
+           }, 1000);
+        return false;
+       });
 </body>
 </html>
