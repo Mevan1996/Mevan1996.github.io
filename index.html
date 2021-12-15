@@ -11,6 +11,82 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Alegreya">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
 	<link rel="stylesheet" href="main.css" type="text/css"/>
+	<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+	    this.classList.toggle("active");
+	    var content = this.nextElementSibling;
+	    if (content.style.display === "block") {
+	      content.style.display = "none";
+	    } else {
+	      content.style.display = "block";
+	    }
+	  });
+	}
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js">
+     $('#sec-1').addClass("active");
+     $("#sec-1").click(function() {
+           $('html, body').animate({
+               scrollTop:        $("#one").offset().top-500
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-2").click(function() {
+           $('html, body') .animate({
+               scrollTop:        $("#two").offset().top-500
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-3").click(function() {
+           $(' html,body') .animate({
+               scrollTop:        $("#three").offset().top-500
+           }, 1000);
+        return false;
+       });
+      
+      $("#sec-4").click(function() {
+        $(this).addClass("active");
+           $('html,body ') .animate({
+               scrollTop:        $("#four").offset().top-500
+           }, 1000);
+        return false;
+       });
+       $("#sec-5").click(function() {
+       $(this).addClass("active");
+           $('html,body ') .animate({
+               scrollTop:        $("#five").offset().top-500px
+           }, 1000);
+        return false;
+       });
+       $('#two').waypoint(function() {
+      
+        $(".container ul li").children().removeClass("active");
+        $("#sec-2").addClass("active");
+        
+      }, { offset: 101 });
+      
+      
+      $('#three').waypoint(function() {
+        $(".container ul li").children().removeClass("active");
+        $("#sec-3").addClass("active");
+      }, { offset: 101 });
+      
+      $('#four').waypoint(function() {
+        $(".container ul li").children().removeClass("active");
+        $("#sec-4").addClass("active");
+      }, { offset: 101 });
+      
+      $('#one').waypoint(function() {
+        $(".container ul li").children().removeClass("active");
+        $("#sec-1").addClass("active");
+      }, { offset: 0 });
+  </script>
 </head>
 <!-- <nav>
     <div class="container">
@@ -400,83 +476,6 @@
     <div id="footer">   <div>Template by Kira Goldner&#169;</div> </div>
     <!-- If you really feel uncomfortable with giving me credit by name on your site, rather than deleting, please at lease uncomment and use the following logo credit. -->
     <!--div id="footer"><div id="logo"> <a href="https://www.kiragoldner.com/" target="_blank"><img src="https://www.kiragoldner.com/favicon.png" width="12pt"/></a></div><div>&#169; Template</div-->
-
-  <script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
-
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-	    this.classList.toggle("active");
-	    var content = this.nextElementSibling;
-	    if (content.style.display === "block") {
-	      content.style.display = "none";
-	    } else {
-	      content.style.display = "block";
-	    }
-	  });
-	}
-  </script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js">
-     $('#sec-1').addClass("active");
-     $("#sec-1").click(function() {
-           $('html, body').animate({
-               scrollTop:        $("#one").offset().top-500
-           }, 1000);
-        return false;
-       });
-      
-      $("#sec-2").click(function() {
-           $('html, body') .animate({
-               scrollTop:        $("#two").offset().top-500
-           }, 1000);
-        return false;
-       });
-      
-      $("#sec-3").click(function() {
-           $(' html,body') .animate({
-               scrollTop:        $("#three").offset().top-500
-           }, 1000);
-        return false;
-       });
-      
-      $("#sec-4").click(function() {
-        $(this).addClass("active");
-           $('html,body ') .animate({
-               scrollTop:        $("#four").offset().top-500
-           }, 1000);
-        return false;
-       });
-       $("#sec-5").click(function() {
-       $(this).addClass("active");
-           $('html,body ') .animate({
-               scrollTop:        $("#five").offset().top-500px
-           }, 1000);
-        return false;
-       });
-       $('#two').waypoint(function() {
-      
-        $(".container ul li").children().removeClass("active");
-        $("#sec-2").addClass("active");
-        
-      }, { offset: 101 });
-      
-      
-      $('#three').waypoint(function() {
-        $(".container ul li").children().removeClass("active");
-        $("#sec-3").addClass("active");
-      }, { offset: 101 });
-      
-      $('#four').waypoint(function() {
-        $(".container ul li").children().removeClass("active");
-        $("#sec-4").addClass("active");
-      }, { offset: 101 });
-      
-      $('#one').waypoint(function() {
-        $(".container ul li").children().removeClass("active");
-        $("#sec-1").addClass("active");
-      }, { offset: 0 });
-  </script>
   
 </body>
 </html>
