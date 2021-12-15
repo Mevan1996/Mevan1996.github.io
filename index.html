@@ -428,7 +428,7 @@
 	       });
 	      $("#sec-3").click(function() {
 		   console.log("Handler 3");
-		  $("#content").animate({scrollTop: $("#three").offset().top-500}, 1000);
+		  $('html, body').animate({scrollTop: $("#three").offset().top-500}, 1000);
 		return false;
 	       });
 	      $("#sec-4").click(function() {
