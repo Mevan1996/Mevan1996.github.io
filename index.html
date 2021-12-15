@@ -13,15 +13,7 @@
 	<link rel="stylesheet" href="main.css" type="text/css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
-	     window.onload = function() {
-	    if (window.jQuery) {  
-		// jQuery is loaded  
-		console.log("Yeah!");
-	    } else {
-		// jQuery is not loaded
-		console.log("Doesn't Work");
-	    }
-	}
+	   
 	     $("#sec-1").click(function() {
 		   console.log("working one");
 		   $("#content").animate({scrollTop: $("#one").offset().top-500}, 1000);
