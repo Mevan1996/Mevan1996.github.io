@@ -418,7 +418,8 @@
 	}
   </script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js">
-	  $("#sec-1").click(function() {
+     $('#sec-1').addClass("active");
+     $("#sec-1").click(function() {
            $('html, body').animate({
                scrollTop:        $("#one").offset().top-200
            }, 1000);
