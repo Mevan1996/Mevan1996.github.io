@@ -14,8 +14,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script>
 	     $("#sec-1").click(function() {
+		   console.log("working one");
 		   $("#contentpane").animate({scrollTop: $("#one").offset().top-500}, 1000);
-                    console.log("working one");
+                    
 		return false;
 	       });
 
