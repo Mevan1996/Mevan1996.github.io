@@ -58,7 +58,8 @@ div#contentpane {
     color: #222222;
     font-size:82.5%;;
     width: 100%; 
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255,255,255,0);
+    
     clear: both;
     line-height: 150%;
 }
