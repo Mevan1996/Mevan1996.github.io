@@ -258,8 +258,9 @@ table ol {
     border: 2px solid red;
 }  
 .collapsible {
-  background-color: #777;
+  background-color: white;
   color: white;
+  text-color: blue;
   cursor: pointer;
   padding: 18px;
   width: 100%;
