@@ -53,7 +53,7 @@ div#contentpane {
     color: #222222;
     font-size:82.5%;;
     width: 100%; 
-    background-color: #FFFFFF;
+    background-color: rgba(0,0,0,.5);
     clear: both;
     line-height: 150%;
 }
