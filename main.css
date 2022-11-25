@@ -314,7 +314,7 @@ table ol {
 .menu {
  display: flex;
  align-items: center;
- gap: 1em;
+ gap: 0em;
  font-size: 18px;
 }
 .menu li:hover {
