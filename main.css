@@ -1,10 +1,10 @@
 html {
-  font-size: 72.50%;
+  font-size:72.50%;
 /*   scroll-behavior: smooth; */
 }
 
 body {
-    -webkit-animation-delay: 0.1s;
+    -webkit-animation-delay:0.1s;
     -webkit-animation-name: fontfix;
     -webkit-animation-duration: 0.1s;
     -webkit-animation-iteration-count: 1;
