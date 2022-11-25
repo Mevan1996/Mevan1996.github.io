@@ -422,7 +422,12 @@
 	}
   </script>
   <script>
-	   
+	     $("#sec-0").click(function() {
+		   console.log("Handler 0");
+		   $('html, body').animate({scrollTop: $("#zero").offset().top-250}, 1000);
+                    
+		return false;
+	       });
 	     $("#sec-1").click(function() {
 		   console.log("Handler 1");
 		   $('html, body').animate({scrollTop: $("#one").offset().top-250}, 1000);
