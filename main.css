@@ -278,14 +278,14 @@ table ol {
 }
 
 .active, .collapsible:hover {
-  background-color:rgba(200,200,200,0);
+  background-color:rgba(85,107,47,0.2);
 }
 
 .contentcoll {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color:rgba(200,200,200,0);
+  background-color:rgba(143,188,143,0.2);
 }
 /* NAVBAR STYLING STARTS */
 .navbar {
