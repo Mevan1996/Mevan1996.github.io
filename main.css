@@ -295,8 +295,8 @@ table ol {
  position: fixed;
  top: 0; /* Position the navbar at the top of the page */
  width: 100%;
- background-color: #AAA;
- color: blue;
+ background-color: darkolivegreen;
+ color: blue !important;
  z-index: 10;
 }
 .nav-links a {
