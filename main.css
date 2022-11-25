@@ -265,7 +265,7 @@ table ol {
     border: 2px solid red;
 }  
 .collapsible {
-  background-color: white;
+  background-color:  rgba(20,20,20,.5);
   color: blue;
   cursor: pointer;
   padding: 18px;
@@ -277,14 +277,14 @@ table ol {
 }
 
 .active, .collapsible:hover {
-  background-color: #BBB;
+  background-color: background-color: rgba(50,50,50,.5);
 }
 
 .contentcoll {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: rgba(20,20,20,.5);
 }
 /* NAVBAR STYLING STARTS */
 .navbar {
