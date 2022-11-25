@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     font-family: "Noto Sans", sans-serif;
     color: #222; 
-    background-image: url('Webpage_Background.jpg');
+    background-image: url('./Webpage_Background.jpg');
 }
 
 @-webkit-keyframes fontfix {
