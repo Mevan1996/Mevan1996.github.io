@@ -293,6 +293,7 @@ table ol {
  align-items: center;
  justify-content: space-between;
  position: fixed;
+ left: 0;
  top: 0; /* Position the navbar at the top of the page */
  width: 100%;
  background-color: rgba(13,90,4,1);;
