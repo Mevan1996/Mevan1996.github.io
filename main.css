@@ -306,7 +306,7 @@ a:link {
   text-decoration: none;
 }
 .nav-links a {
- color: #191970;
+ color: white;
  align-items: center;
 }
 .linav {
@@ -324,7 +324,7 @@ a:link {
  font-size: 18px;
 }
 .menu li:hover {
- background-color: #CD5C5C;
+ background-color: #B0C4DE;
  border-radius: 5px;
  transition: 0.3s ease;
 }
