@@ -297,7 +297,7 @@ table ol {
  left: 0;
  top: 0; /* Position the navbar at the top of the page */
  width: 100%;
- background-color: #DDA0DD;
+ background-color: #B22222;
  color: blue !important;
  z-index: 10;
 }
@@ -325,7 +325,7 @@ a:link {
  font-size: 18px;
 }
 .menu li:hover {
- background-color: #DDA0DD;
+ background-color: #CD5C5C;
  border-radius: 5px;
  transition: 0.3s ease;
 }
