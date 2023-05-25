@@ -325,7 +325,7 @@ a:link {
  font-size: 18px;
 }
 .menu li:hover {
- background-color: darkseagreen;
+ background-color: #DDA0DD;
  border-radius: 5px;
  transition: 0.3s ease;
 }
