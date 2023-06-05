@@ -35,11 +35,11 @@
        <div class="menu">
 	 <li class="linav"><a id="sec-0" href="#zero">Education</a></li>
          <li class="linav"><a id="sec-1" href="#one">Publications</a></li>
-	 <li class="linav"><a id="sec-6" href="#six">Math Write-Ups</a></li>
          <li class="linav"><a id="sec-4" href="#four">Teaching</a></li>	 
 	 <li class="linav"><a id="sec-3" href="#three">Selected Projects</a></li>
 	 <li class="linav"><a id="sec-2" href="#two">Honors and Awards</a></li>	 
          <li class="linav"><a id="sec-5" href="#five">Courses</a></li> 
+	 <li class="linav"><a id="sec-7" href="#five">Personal</a></li> 
        </div>
      </ul>
    </nav>
@@ -59,9 +59,9 @@
 <div>
   <h4>Brief Bio</h4>
   <p style='text-align: justify;'>
-        <b>I am a Ph.D. student in Electrical Engineering at the University of Southern California (USC) advised by Professor Michael James Neely. My research interests span stochastic optimization, and stochastic game thoery. 
-	In particular, I am interested in the applications of stochatic optimization and game theory in communications problems. I am also interested in problems in information theory.</b> </p>
-  <p style='text-align: justify;'><b>Before USC, I completed my Bachelors Degree in Electronic and Telecommunication Engineering at the University of Moratuwa, Sri Lanka. My undegraduate advisors were
+        <b>I am a Ph.D. student in Electrical Engineering at the University of Southern California (USC) advised by Professor Michael James Neely. My research interests span stochastic optimization, game theory.
+	In particular, I am interested in the applications of stochastic optimization and game theory in communications problems. I am also interested in problems in information theory.</b> </p>
+  <p style='text-align: justify;'><b>Before USC, I completed my Bachelor's Degree in Electronic and Telecommunication Engineering at the University of Moratuwa, Sri Lanka. My undergraduate advisors were
 	Dr. Tharaka Samarasinghe, Dr. Subodha Charles and Dr. Kasun Hemchandra.</b></p>
 </div>
 <hr class="divider" />
@@ -123,18 +123,14 @@
           <p> <b> M. Wijewardena</b>, S. Pathiranage, T. Nanyakkara, I. Rajapakshe, S. Charles and T. Samarasinghe.</p>
           <p>in progress</p>
      </div> 
-
-</div>       
-
-<hr class="divider" />	
-<div id="six">
-	<h4>Math Write-Ups</h4>
-	 <div class="paper">
+     <h4>Math Write-Ups</h4>
+     <div class="paper">
           <p class="title"><b>Point-wise and Uniform Convergence of
 Fourier Series</b> <a href="https://drive.google.com/file/d/1702rNIUH2Nx_jyoTUXB8K34weS1tVLnp/view?usp=sharing">[pdf]</a></p>
           <p>As a part of Math 425b)- Fundamental Concepts of Analysis taught by Prof. Trevor Leslie at USC </p>
      </div> 
-</div>
+
+</div>       
 <hr class="divider" />
 <div id="four">
       <h4>Teaching and Work Experience</h4>
@@ -389,13 +385,21 @@ Fourier Series</b> <a href="https://drive.google.com/file/d/1702rNIUH2Nx_jyoTUXB
 	  </div>
 </div>
 </div>
+<hr class="divider" />
 
+
+<div id="one">
+      <h4>Personal</h4>
+      <ul> 
+	   <li>I am a music enthusiast, and I enjoy recording cover songs during my free time. <a href="https://youtube.com/@mi_music2115">This channel</a> contains some of the cover songs done by me and my wife. </li>  
+      </ul>
+</div>       
 
 </div>
 
     <div id="buffer"></div>
     <div id="footer">   <div>Template by Kira Goldner&#169;</div> </div>
-    <!-- If you really feel uncomfortable with giving me credit by name on your site, rather than deleting, please at lease uncomment and use the following logo credit. -->
+    <!-- If you really feel uncomfortable with giving me credit by name on your site, rather than deleting, please at least uncomment and use the following logo credit. -->
     <!--div id="footer"><div id="logo"> <a href="https://www.kiragoldner.com/" target="_blank"><img src="https://www.kiragoldner.com/favicon.png" width="12pt"/></a></div><div>&#169; Template</div-->
   
    <script>
@@ -450,6 +454,11 @@ Fourier Series</b> <a href="https://drive.google.com/file/d/1702rNIUH2Nx_jyoTUXB
 	        $("#sec-6").click(function() {
 		    console.log("Handler 6");
 		   $('html, body').animate({scrollTop: $("#six").offset().top-250}, 1000);
+		return false;
+	       });
+	       $("#sec-7").click(function() {
+		    console.log("Handler 7");
+		   $('html, body').animate({scrollTop: $("#seven").offset().top-250}, 1000);
 		return false;
 	       });
 	  </script>
