@@ -384,8 +384,6 @@ Fourier Series</b> <a href="https://drive.google.com/file/d/1702rNIUH2Nx_jyoTUXB
 	      </ul>
 	  </div>
 </div>
-</div>
-</div>
 <hr class="divider" />
 
 
@@ -395,73 +393,73 @@ Fourier Series</b> <a href="https://drive.google.com/file/d/1702rNIUH2Nx_jyoTUXB
 	   <li>I am a music enthusiast, and I enjoy recording cover songs during my free time. <a href="https://youtube.com/@mi_music2115">This channel</a> contains some of the cover songs done by me and my wife. </li>  
       </ul>
 </div>       
+</div>
+</div>
 
 
+<div id="buffer"></div>
+<div id="footer">   <div>Template by Kira Goldner&#169;</div> </div>
+<!-- If you really feel uncomfortable with giving me credit by name on your site, rather than deleting, please at least uncomment and use the following logo credit. -->
+<!--div id="footer"><div id="logo"> <a href="https://www.kiragoldner.com/" target="_blank"><img src="https://www.kiragoldner.com/favicon.png" width="12pt"/></a></div><div>&#169; Template</div-->
 
-    <div id="buffer"></div>
-    <div id="footer">   <div>Template by Kira Goldner&#169;</div> </div>
-    <!-- If you really feel uncomfortable with giving me credit by name on your site, rather than deleting, please at least uncomment and use the following logo credit. -->
-    <!--div id="footer"><div id="logo"> <a href="https://www.kiragoldner.com/" target="_blank"><img src="https://www.kiragoldner.com/favicon.png" width="12pt"/></a></div><div>&#169; Template</div-->
-  
-   <script>
-	var coll = document.getElementsByClassName("collapsible");
-	var i;
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<script>
+$("#sec-0").click(function() {
+   console.log("Handler 0");
+   $('html, body').animate({scrollTop: $("#zero").offset().top-250}, 1000);
 
-	for (i = 0; i < coll.length; i++) {
-	  coll[i].addEventListener("click", function() {
-	    this.classList.toggle("active");
-	    var content = this.nextElementSibling;
-	    if (content.style.display === "block") {
-	      content.style.display = "none";
-	    } else {
-	      content.style.display = "block";
-	    }
-	  });
-	}
-  </script>
-  <script>
-	     $("#sec-0").click(function() {
-		   console.log("Handler 0");
-		   $('html, body').animate({scrollTop: $("#zero").offset().top-250}, 1000);
-                    
-		return false;
-	       });
-	     $("#sec-1").click(function() {
-		   console.log("Handler 1");
-		   $('html, body').animate({scrollTop: $("#one").offset().top-250}, 1000);
-                    
-		return false;
-	       });
-	      $("#sec-2").click(function() {
-		    console.log("Handler 2");
-		   $('html, body').animate({scrollTop: $("#two").offset().top-250}, 1000);
-		return false;
-	       });
-	      $("#sec-3").click(function() {
-		   console.log("Handler 3");
-		  $('html, body').animate({scrollTop: $("#three").offset().top-250}, 1000);
-		return false;
-	       });
-	      $("#sec-4").click(function() {
-		    console.log("Handler 4");
-		   $('html, body').animate({scrollTop: $("#four").offset().top-250}, 1000);
-		return false;
-	       });
-	       $("#sec-5").click(function() {
-		    console.log("Handler 5");
-		   $('html, body').animate({scrollTop: $("#five").offset().top-250}, 1000);
-		return false;
-	       });
-	        $("#sec-6").click(function() {
-		    console.log("Handler 6");
-		   $('html, body').animate({scrollTop: $("#six").offset().top-250}, 1000);
-		return false;
-	       });
-	       $("#sec-7").click(function() {
-		    console.log("Handler 7");
-		   $('html, body').animate({scrollTop: $("#seven").offset().top-250}, 1000);
-		return false;
-	       });
-	  </script>
+return false;
+});
+$("#sec-1").click(function() {
+   console.log("Handler 1");
+   $('html, body').animate({scrollTop: $("#one").offset().top-250}, 1000);
+
+return false;
+});
+$("#sec-2").click(function() {
+    console.log("Handler 2");
+   $('html, body').animate({scrollTop: $("#two").offset().top-250}, 1000);
+return false;
+});
+$("#sec-3").click(function() {
+   console.log("Handler 3");
+  $('html, body').animate({scrollTop: $("#three").offset().top-250}, 1000);
+return false;
+});
+$("#sec-4").click(function() {
+    console.log("Handler 4");
+   $('html, body').animate({scrollTop: $("#four").offset().top-250}, 1000);
+return false;
+});
+$("#sec-5").click(function() {
+    console.log("Handler 5");
+   $('html, body').animate({scrollTop: $("#five").offset().top-250}, 1000);
+return false;
+});
+$("#sec-6").click(function() {
+    console.log("Handler 6");
+   $('html, body').animate({scrollTop: $("#six").offset().top-250}, 1000);
+return false;
+});
+$("#sec-7").click(function() {
+    console.log("Handler 7");
+   $('html, body').animate({scrollTop: $("#seven").offset().top-250}, 1000);
+return false;
+});
+</script>
 </body>
 </html>
